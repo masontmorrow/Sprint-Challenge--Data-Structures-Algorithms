@@ -13,7 +13,7 @@ class BinarySearchTree:
 
   def breadth_first_for_each(self, cb):
     q = []
-    q.append(self.value)
+    q.append(self)
     while len(q):
       current_node = q.pop(0)
       if current_node.left:
