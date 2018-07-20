@@ -33,4 +33,4 @@ Divide the floors in two parts. Throw an egg, and if the egg breaks in any case,
 ### III
 
 - a) O(n) because the items will always be greater than the pivot, therefore the less list will be empty
-- b) O(n^2) because the sub lists will have to rearrange themselves until each list only has one element in it
+- b) O(2^n) because the sub lists will have to rearrange themselves until each list only has one element in it
